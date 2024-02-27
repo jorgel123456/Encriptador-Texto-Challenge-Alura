@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..500&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="principal">
+        <h1><img src="img/process-7674_256.gif" class="gif">Encriptador de texto <img src="img/cartoon-478_512.gif" class="gif"></h1>
+        <div class="texto">
+            <input type="text" id="txtTexto" class="inputTexto" placeholder="Ingresa tu texto ">
+            <input id="txtEncriptado" type="text"  class="inputTexto" placeholder="Ingresa tu texto">
+        </div>
+        <div class="botones">
+            <button class="boton" type="button" onclick="encriptarTexto()"><img src="img/encriptado.png">Encriptar</button>
+            <button class="boton" type="button" onclick="desencriptadoTexto()"><img src="img/desencriptar.png">Desencriptar</button>
+            <button class="boton" type="button" onclick="copiarTexto()"><img src="img/copia.png">Copiar</button>
+            <button class="boton" type="button" onclick="limpiarTexto()"><img src="img/limpieza-de-datos.png">Limpiar</button>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+    
+</body>
+</html>

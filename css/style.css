@@ -1,0 +1,122 @@
+body {      width: 100%;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(90deg, rgb(23, 17, 131) 0%, rgb(100, 100, 190) 35%, rgb(134, 144, 231) 100%);
+            background-attachment: fixed;
+            margin: 0;
+            justify-content: center;
+            height: 100vh;
+            font-family: "Fredoka", sans-serif;
+            font-size: 15px;
+            color: rgba(181, 245, 6, 0.938);
+            
+
+}
+
+h1{
+  text-align: center;
+  text-decoration: solid;
+            text-shadow:
+                -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000; 
+  
+}
+.principal{
+  width: 90%;
+ display: grid;
+ justify-content: center;
+ background: linear-gradient(90deg, rgb(23, 17, 131) 0%, rgb(100, 100, 190) 35%, rgb(134, 144, 231) 100%);
+margin: 50px auto;
+}
+.texto {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin: 10px auto;
+    
+  }
+  .inputTexto{
+    color: black;
+    text-align: center;
+    width: 70%;
+    height: 20rem;
+    border-radius: 50px;
+    border: none;
+    margin: auto;
+  }
+.gif{
+  
+    max-width: 5%;
+    height: auto; 
+    border: 2px solid black; 
+    border-radius: 20px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+
+}
+
+  .botones{
+    width: 90%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1rem auto;
+  }
+.boton{
+  width: 90%;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+  background: orange;
+  border:none;
+  border-radius: 30px;
+  transition: 1s all;
+  cursor:pointer; 
+  margin: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+ 
+}
+.boton:hover{
+  background: darkorange;
+  transform: scale(1.2);
+}
+img{
+  margin-right: 5px;
+  max-width: 30px;
+  vertical-align: middle;
+  
+}
+@media screen and (max-width: 768px) {
+  .inputTexto {
+      width: 90%;
+  }
+  .boton {
+      font-size: 1.0em; 
+  }
+  img{
+    max-width: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .inputTexto {
+      width: 100%;
+  }
+  .boton {
+      font-size: 0.1em;
+  }
+  .boton:nth-child(2) {
+    margin-top: 1px; 
+    
+ }
+  img{
+    margin-right: 2px;
+    max-width: 2px;
+    padding: 10px;
+    vertical-align: middle;
+  }
+}
