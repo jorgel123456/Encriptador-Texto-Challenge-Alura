@@ -26,6 +26,7 @@ h1{
   width: 90%;
  display: grid;
  justify-content: center;
+ flex-wrap: wrap;
  background: linear-gradient(90deg, rgb(23, 17, 131) 0%, rgb(100, 100, 190) 35%, rgb(134, 144, 231) 100%);
 margin: 50px auto;
 }
