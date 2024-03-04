@@ -123,6 +123,12 @@ img{
 }
 @media screen and (max-width: 250px) {
   .inputTexto {
-      width: 100%;
+    color: black;
+    text-align: center;
+    width: 70%;
+    height: 20rem;
+    border-radius: 50px;
+    border: none;
+    margin: auto;
   }
 }
