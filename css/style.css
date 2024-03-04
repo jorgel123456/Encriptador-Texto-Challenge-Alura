@@ -121,3 +121,8 @@ img{
     vertical-align: middle;
   }
 }
+@media screen and (max-width: 250px) {
+  .inputTexto {
+      width: 100%;
+  }
+}
